@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Saludo</title> <!--titulo de la pagina -->
+    <meta charset="UTF-8">  <!--identificador de tipo de texto -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ajustador para cualquier navegador -->
+        <!-- -->
+
+    <style> /* inicio de la funcion de cambio de estilos   */
+
+    | /*algunos ejemplos son los siguientes pero se pueden crear clases de estilo para usarse posteriormente */
+      html {font-family: sans-serif; text-align: center} /*Estilo de la pagina general   */
+      body {display: inline-block; text-align: left} /* Estilo del cuerpo   */
+      output {font-weight: bold}   /* Estilo de las salidas -  grosor de la letra */
+      footer {font-size: small}  /*Estilo del pie de pagina - tamaño de la lertra   */
+    
+    </style> <!--Fin de cambio de estilos -->
+  </head> 
+
+  <body>
+    <header> <!--encabezado del cuerpo  -->
+      <h1>Saludo</h1><!--Titilo tipo 1 es h1 tipo 2 h2 y asi .... -->
+    </header>
+
+    <section><!--inicio de una seccion de la pagina -->
+
+        <form id="forma"><!--inicio de un formulario -->
+          <p> <!--Parrafo -->
+              <label accesskey="1"> <!--creacion de una etiqueta y asigancion de una tecla a una accion con acceskey -->
+              Nombre 1  <!--nombre a mostrar antes del recudro que se va a capturar -->
+              <input name="nombre1" type="text"> <!-- una entrada en html, debe lleavar nombre de la variable y tipo -->
+            </label>
+          </p>
+          <p> <!--Parrafo 2  -->
+              <label accesskey="2">
+              Nombre 2
+              <input name="nombre2" type="text">
+              </label>
+          </p>
+
+          <p><output id="salida"></output></p> <!-- salida de informacion se captura con un id o  identifcador -->
+      </form><!--final del formulario -->
+    </section><!--final de la seccion  -->
+
+
+    <footer><!--pie de pagina -->
+      Copyright 2021 Yo  <!--texto a mostar en el pie de pagina -->
+    </footer>
+
+    <script src="C:\Users\Victo\Desktop\Materiales Clases\Programacion Web\Cuadros de Entrada/CtrlSaludo.js"></script>
+    <!--Asi se llama a una funcion de js se debe poner la ruta del archivo donde se encuentra el archivo .js con las funciones que deseamos que realize  -->
+
+  </body><!--fin del cuerpo de la pagina  -->
+</html>
