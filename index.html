@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba Github</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="Css/estilo.css">
+</head>
+<body>
+<header>
+<h1>Alumno</h1>
+</header>
+	<form id="forma"  action="javascript:;"> 
+		<p><em>El borde azul indica obligatorio.</em></p>
+
+		<p>
+			<label accesskey="C" >
+			Boleta<br>
+			<input type="text" name="boleta" required autofocus >
+			</label>	
+				
+		</p>
+
+		<p>
+			<label accesskey="N" >
+			Nombre<br>
+			<input type="text" name="nombre" required  >
+			</label>	
+				
+		</p>
+
+		<p>
+			<label accesskey="C" >
+			Grupo<br>
+			<input type="text" name="grupo" required autofocus >
+			</label>	
+				
+		</p>
+
+		<p>
+			<label accesskey="C" >
+			Materia<br>
+			<input type="text" name="materia" required autofocus >
+			</label>	
+				
+		</p>
+		
+		<p>
+        <label accesskey="F">
+          
+          <input name="fecha" type="date" required max="2022-01-01"
+                 min="2021-01-01">
+        </label>
+        
+        </p>
+
+		
+
+
+		<p>
+            <input type="submit" value="Mostrar" accesskey="P" onclick="pantalla()">
+           
+            
+         </p>
+
+         <!--Botones-->
+         	<br><output id="salidaclave"></output>	
+         	<br><output id="salidanombre"></output>	
+         	<br><output id="salidagrupo"></output>	
+         	<br><output id="salidamateria"></output>	
+         	<br><output id="salidaFecha"></output>
+         
+         	
+
+
+
+	</form>
+<footer>
+	Copyright 2021 Victor Antonio Lopez G
+</footer>
+<script src="Js/funcion.js"></script>
+
+</body>
+</html>
